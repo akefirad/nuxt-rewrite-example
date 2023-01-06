@@ -1,0 +1,11 @@
+[[redirects]]
+  from = "/search"
+  to = "https://www.google.com"
+  status = 200
+  force = true
+
+[[redirects]]
+  from = "https://bar.develop.wepromise.tech"
+  to = "https://cute-narwhal-9a7a10.netlify.app/about"
+  status = 200
+  force = true

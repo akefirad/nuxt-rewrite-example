@@ -1,0 +1,16 @@
+{
+  "trailingSlash": false,
+  "rewrites": [
+    { "source": "/google", "destination": "https://www.google.com" },
+    {
+      "source": "/",
+      "destination": "/products",
+      "has": [
+        {
+          "type": "host",
+          "value": "nuxt-vercel-example-product.vercel.app"
+        }
+      ]
+    }
+  ]
+}
